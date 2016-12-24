@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+body{background: #fff;}
+html,body,ul,ol,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input {  margin: 0;padding: 0;}
+fieldset,img {  border: none;}
+h1,h2,h3,h4,h5,h6 {  font-weight: normal;}
+img {  display:inline-block;}
+ul,ol,li {  list-style: none;}
+body {  font: 12px "微软雅黑";}
+a {  font: 12px "微软雅黑";  text-decoration: none;color: #444;}
+em,b,strong,i {  font-style: normal;  font-weight: normal;}
+.left {  float: left;}
+.right {  float: right;}
+.clearboth {  clear: both;}
+.fl{float:left;}
+.fr{float:right;}
+.ft16{font-size:16px;}
+.rela{position:relative;}
+.ftc{text-align:center;}
+.dib {display: inline-block;}
+.ft14{font-size:14px;}
+.mr5 {margin-right: 5px;}
+.overflow{overflow:hidden;}
+.boxsha {  box-shadow: 3px 3px 4px #777;}
+body {  background: #fff;  border-right: 6px solid #7a6e6e;}
+
+
+.hihi{display:inline-block;line-height: 25px; padding:0 5px;color:red;}
+/*-----------------------------jheader-------------------------------*/
+.jheader{width:1202px;height:148px;margin:0 auto;}
+.jheader .logo{width:110px;height:46px;float:left;margin-left:13px;margin-top:30px;}
+.jheader .lozi{width:90px;height:22px;float:left;margin-left:17px;margin-top:40px;font-size:22px;color: #000;}
+.jheader .fanhui{width:1202px;height:74px;float:left;}
+.jheader .fanhui img{float:left;margin-left:22px;margin-top:44px;width:75px;height:14px;}
+/*-----------------------------jbody-------------------------------*/
+.jbody{width:1202px;height:auto;margin:0 auto;overflow: hidden;display:block;}
+.jbody .jtishi{width:1202px;height:94px;float: left;font-size: 16px;color: #000;text-align: center;line-height: 94px;}
+.jbody .zeng{width:143px;height:47px;float:left;margin-left:520px;margin-bottom:72px;background: #4eb109;text-align: center;line-height: 46px;}
+.jbody .zeng a{font-size: 18px;color: #fff;}
+/*-----------------------------suoping-------------------------------*/
+.suoping{width:100%;height: 100%;background: #A599B2;opacity: 0.5;position:absolute;left:0;top:0;display:none;}
+.jmotai{width:715px;height:482px;position:fixed;background: #fff;left:50%;top:50%;margin-left:-308px;margin-top:-308px;display: none;z-index:456458;}
+.jmotai .jti{width:715px;height:52px;float:left;border-bottom: 1px solid #eeeeee;font-size: 18px;color: #000;line-height: 52px;}
+.jmotai .jti .jtian{width:108px;height:52px;float:left;margin-left:25px;}
+.jmotai .jti .close{width:35px;height:35px;float:right;margin-right:10px;margin-top: 9px;}
+/*.jmotai .jti .close:hover{}*/
+.jmotai .pform{width:608px;height:42px;float:left;margin-left:107px;margin-top:20px;}
+.jmotai .pform .ptou{width:60px;height:42px;font-size: 12px;color: #000;line-height: 42px;float:left;text-align: right;}
+.jmotai .pform input{height: 38px;border: 1px solid #dddddd;float:left;margin-left:25px;}
+.jmotai .pform .xiang{width:403px;}
+.jmotai .pform .shouji{width:255px;}
+.jmotai .pform .city{width:98px;height:38px;float:left;border: 1px solid #dddddd;margin-left:10px;}
+.jmotai .pform .dist{width:98px;height:38px;float:left;border: 1px solid #dddddd;margin-left: 10px;}
+.jmotai .pform .prov{width:98px;height:38px;float:left;border: 1px solid #dddddd;margin-left:25px;}
+.jmotai .ddan{width:200px;height:14px;float:left;margin-left:192px;margin-top:27px;font-size:12px;color: #000;}
+.baocun{width:144px;height:40px;float:left;background: #33cb98;margin-left:192px;margin-top:22px;line-height:40px;text-align: center;}
+.baocun a{font-size:20px;color: #fff;}
+/*-----------------------------jbody1-------------------------------*/
+.jbody1{width:1202px;height:auto;margin:0 auto;overflow:hidden;display: none;}
+.jbody1 form{width:1202px;height:87px;float:left;position: relative;}
+.jbody1 fieldset{width:1202px;height:20px;border-top:1px solid #dddddd;}
+.jbody1 fieldset legend{font-size:12px;margin-left:24px;}
+.jbody1 .xingming{width:100px;height: 21px;border: 2px solid #28b810;background:url(../images/jiesuan/gou.png) no-repeat right bottom;text-align: center;margin-top:22px;margin-left:24px;float: left;font-size:12px;line-height:20px;}
+.jbody1 .dizhi{height:14px;padding:0 20px;float:left;margin-top:25px;font-size:12px;}
+.jbody1 .modi{width:59px;height:18px;float:left;background: #68ca33;margin-top:23px;line-height:18px;text-align: center;font-size:12px;color: #fff;}
+.xinzeng{width:77px;height:29px;position: absolute;right:150px;top:173px;background:url(../images/jiesuan/jia.png) no-repeat 5px center #fff;border: 1px solid #ddd;line-height: 28px;padding-left: 20px;}
+.xinzeng a{font-size:12px;color: #000;}
+.zai{width:106px;height:30px;float:left;margin-left:25px;margin-top:23px;border: 2px solid #28b810;background:url(../images/jiesuan/gou.png) no-repeat right bottom;text-align: center;line-height: 30px;}
+.zai img{width:15px;height:15px;float: right;margin-right: 15px;margin-top:7px;}
+.yina img{display: none;}
+.yina{border:2px solid #dddddd;background: none;margin-left:10px;}
+.jbody1 .jj{height: 250px;}
+.jbody1 .jj .jleft{width:250px;float: left;margin-left:24px;}
+.jj p{width:180px;height: 30px;float:left;border: 1px solid #dddddd;margin-top:15px;padding-left: 20px;font-size: 12px;color: #666666;line-height: 30px;}
+.jj img{width:15px;height: 15px;float:left;margin-left:8px;margin-top: 25px;}
+.jright{width:353px;height:51px;float:right;margin-top:170px;}
+.jright .ying{width:170px;height: 50px;float:left;line-height: 50px;font-size: 14px;color: #333333;}
+.jright .ying .fu{width:74px;height:50px;float:left;}
+.jright .ying .jine{width:95px;height:50px;float:left;line-height: 50px;font-size: 16px;color: #e61111;font-weight: 900;}
+.jright .tiding{width:182px;height: 49px;border-radius: 5px;background: #459d36;float:left;text-align: center;line-height: 50px;}
+.jright .tiding a{font-size: 20px;color: #fff;font-weight: 900;}
+

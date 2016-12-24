@@ -1,0 +1,38 @@
+
+{
+	
+	"endor":[
+		{"en":"images/detail/list01_a.jpg","desc":"哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"},
+		{"en":"images/detail/list02_a.jpg","desc":"哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"},
+		{"en":"images/detail/list03_a.jpg","desc":"哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"},
+		{"en":"images/detail/list08_a.jpg","desc":"哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"},
+		{"en":"images/detail/list04_a.jpg","desc":"多哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"},
+		{"en":"images/detail/list06_a.jpg","desc":"哈乐喜Healthy 营养浓汤猫罐 纯鸡肉 80g","pri":"8.00"}
+	],
+	"qi":[
+		{"imgUrl":"images/detail/qi1.jpg"},
+		{"imgUrl":"images/detail/qi2.jpg"},
+		{"imgUrl":"images/detail/qi3.jpg"},
+		{"imgUrl":"images/detail/qi23.jpg"},
+		{"imgUrl":"images/detail/qi4.jpg"},
+		{"imgUrl":"images/detail/qi24.jpg"},
+		{"imgUrl":"images/detail/qi5.jpg"},
+		{"imgUrl":"images/detail/qi6.jpg"},
+		{"imgUrl":"images/detail/qi7.jpg"},
+		{"imgUrl":"images/detail/qi8.jpg"},
+		{"imgUrl":"images/detail/qi9.jpg"},
+		{"imgUrl":"images/detail/qi10.jpg"},
+		{"imgUrl":"images/detail/qi11.jpg"},
+		{"imgUrl":"images/detail/qi12.jpg"},
+		{"imgUrl":"images/detail/qi13.jpg"},
+		{"imgUrl":"images/detail/qi14.jpg"},
+		{"imgUrl":"images/detail/qi15.jpg"},
+		{"imgUrl":"images/detail/qi16.jpg"},
+		{"imgUrl":"images/detail/qi17.jpg"},
+		{"imgUrl":"images/detail/qi18.jpg"},
+		{"imgUrl":"images/detail/qi19.jpg"},
+		{"imgUrl":"images/detail/qi20.jpg"},
+		{"imgUrl":"images/detail/qi21.jpg"},
+		{"imgUrl":"images/detail/qi22.jpg"}
+	]
+}

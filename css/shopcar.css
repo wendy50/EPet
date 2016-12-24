@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CSS Document */
+body{background: #fff;}
+html,body,ul,ol,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input {  margin: 0;padding: 0;}
+fieldset,img {  border: none;}
+h1,h2,h3,h4,h5,h6 {  font-weight: normal;}
+img {  display:inline-block;}
+ul,ol,li {  list-style: none;}
+body {  font: 12px "微软雅黑";}
+a {  font: 12px "微软雅黑";  text-decoration: none;color: #444;}
+em,b,strong,i {  font-style: normal;  font-weight: normal;}
+.left {  float: left;}
+.right {  float: right;}
+.clearboth {  clear: both;}
+.fl{float:left;}
+.fr{float:right;}
+.ft16{font-size:16px;}
+.rela{position:relative;}
+.ftc{text-align:center;}
+.dib {display: inline-block;}
+.ft14{font-size:14px;}
+.mr5 {margin-right: 5px;}
+.overflow{overflow:hidden;}
+.boxsha {  box-shadow: 3px 3px 4px #777;}
+body {  background: #fff;  border-right: 6px solid #7a6e6e;}
+.list a{background: #6a4385;}
+
+.gcenter{width:1202px;height:auto;margin:0 auto;overflow: hidden;}
+.gheader{width:1202px;height:112px;float:left;}
+.gheader .glogo{width:109px;height:47px;float:left;margin-left:12px;margin-top:30px;}
+.gheader .gouwuce{width:70px;height:22px;float:left;margin-left:17px;margin-top:40px;font-size:22px;color:#333333;}
+.gheader .gsearch{width:324px;height:28px;float:right;border:2px solid #ac92ec;margin-top:40px;}
+.gheader .gsearch input{width:275px;height:28px;float:left;border:none;}
+.gheader .gsearch a{width:49px;height:28px;float:left;background: #ac92ec;font-size:12px;color:#fff;text-align: center;line-height: 28px;}
+/*------------------------------list-------------------------------------*/
+.glist{width:1202px;height:34px;float:left;border-bottom: 2px solid #dddddd;position: relative;}
+.glist li{width:123px;height:29px;text-align: center;line-height:30px;float:left;border-right:1px solid #e8e8e8;}
+.glist li a{font-size: 16px;color: #3c3c3c;}
+.glist li a:hover{color:#ff6600;}
+.glist .hongse a{color:#ff6600;}
+.glist .gborder{width:122px;height:7px;position:absolute;left:0;top:23px;}
+/*------------------------------allcheck-------------------------------------*/
+.allcheck{width:1202px;height:26px;float:left;margin-top:40px;position: relative;}
+.allcheck .allcheckbox{float:left;margin-left:10px; margin-top:8px;}
+.allcheck .country{float:left;margin-left:5px; padding-left:30px; margin-right:50px; padding:3px 8px; line-height:20px; background: #ac92ec; color:white; border-radius:3px; }
+.allcheck .weibaoyou{padding:3px 8px; border-radius:3px; border:1px dotted #f60; color:#f60; float:left;}
+.allcheck .dingdan{height:26px;font-size:12px;color: #666666;line-height: 26px;float:left;margin-left:60px;}
+.allcheck .dingdan a{color:#ff6600;}
+
+
+/*------------------------------bottom-allcheck--------------------------------------*/
+.bottom-allcheck{width:1202px;height:62px;float:left;background:#f5f5f5;margin-top:30px;}
+.bottom-allcheck .bottom-allcheckbox{float:left;margin-left:10px;margin-top:25px;}
+.bottom-allcheck .quan{width:50px;height:62px;float:left;margin-left:5px;line-height: 62px;font-size:12px;color:#333333;}
+.bottom-allcheck .alldelete{width:97px;height:62px;float:left;line-height: 62px;}
+.bottom-allcheck .alldelete a{font-size:12px;color:#333333;}
+.allprice{width:170px;height:62px;float:left;margin-left:635px;font-size:12px;color: #333;line-height: 62px;}
+.allprice .zzi{float:left;}
+.allprice .zongjia{font-size:16px;color:#e61212;float:left;font-weight: 900;}
+.allprice .zongjia .zjiaqian{font-size:18px;color:#e61212}
+.bottom-allcheck .jiesuan{width:213px;height:62px;border-radius: 10px;background:#ac92ec;float:right;text-align:center;line-height:62px;}
+.bottom-allcheck .jiesuan a{font-size:20px;color:#fff;font-weight: 900;}
+.bottom-allcheck .jiesuan .jieshu{font-size:20px;color:#fff;font-weight: 900;}
+.jixu{width:1202px;height:25px;float:left;margin-top:28px; margin-bottom:50px;}
+.jixu .continue{width:68px;height:23px;border:1px solid #b1b1b1;border-radius: 5px;float:left;background:#f5f5f5;text-align: center;line-height: 23px;}
+.jixu .continue a{font-size:12px;color:#333;}
+.jixu .continue a:hover{font-size:12px;color:#fe7012;}
+/*******************中间购物车内容***********************/
+.cart-order{border:1px solid #ccc;}
+.cart-order td{padding:10px;background:#fcfcfc;border-top:1px solid #ccc;border-bottom:1px solid #ccc;}
+.cart-order span{border-radius:3px;padding:3px 6px 3px 23px;}
+.div1{float: left;width:87px;height:87px;border:1px solid #E8E8E8;background: #FFF;text-align: center;overflow: hidden;}
+.div1 a{display: table-cell;vertical-align: middle;width: 87px;height:87px;color:#444;text-align: center;}
+.div2{width:310px;float: left;margin-left: 20px;}
+.div2 a{color: #333;}
+.div21{position: relative;cursor: pointer;margin-top: 10px;}
+.c999{color: #999;}
+.through{text-decoration: line-through;}
+.div3{background: #fff;border: 1px solid #cacbcb; display: inline-block;}
+.clearfix{*zoom:1}
+.div3 span{display: inline-block;height: 22px;line-height: 22px;padding: 0 3px;cursor: pointer;outline: none;}
+#less1{float: left;font-size: 18px;}
+.div3 .text {padding: 0;margin: 0 2px;border: 0; border-right: 1px solid #cacbcb;border-left: 1px solid #cacbcb;width: 43px;float: left;background: #fff;line-height: 22px;height: 22px;text-align:center;font: 12px 'Microsoft Yahei',Tahoma,Simsun;}
+#add1{float: left;}
+.clearfix:after {  content: "."; display: block;    height: 0;  clear: both;visibility: hidden;}
+.fcolor{color: #FF6000; font: 12px 'Microsoft Yahei',Tahoma,Simsun;}
+.mtneg10{margin-top: -10px;}
+.c000{color:#000000;}
+.bold{font-weight: bold;}
+.ft14{font-size: 14px;}
+.c89 {color: #898989;}
+.c666{color: #666;}
+.shoucang{cursor: pointer;}
+.del{cursor: pointer;}
+
+a:hover{color:blue;}
+
+
+
+
+
+
+
+
+

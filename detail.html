@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" href="css/commen.css">
+		<link rel="stylesheet" href="css/detail.css"/>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+		<script src="js/jquery-1.11.0.js"></script>
+		<script src="js/commen.js"></script>
+		<script src="js/cookie.js"></script>
+		<script src="js/detail.js"></script>
+	</head>
+	<body>
+		 <!-------公共样式-------------->
+		 <div class="headbox">
+			<div class="headtop">
+				<div class="headL left">
+					<p class=" left"><a href="http://www.epet.com/zhengpin/main.html?do=newgoods" target="_blank">E宠就是正品</a></p>
+					<p class="left">评价（<a href="http://www.epet.com/comment.html">378.2万</a>）</p>
+				</div>
+				<div class="headR right">
+					<span><a href="login.html">[登录]</a></span>
+					<span><a href="register.html">[注册]</a></span>
+					<span><em class="icon-shopping-cart"></em><a href="shopcar.html">购物车(<b style="color:#FF6600" class="car1">0</b>)</a></span>
+					<!--我的E宠下拉-->
+					<span class="hoverShow">
+						<em class=" icon-user"></em>
+						<a href="#">我的E宠</a>
+						<em class="zhuan icon-caret-down"></em>
+						<div class="myEc" style="display: none;">
+		                    <a href="https://my.epet.com/orders.html">我的订单</a>
+		                    <a href="https://my.epet.com/recharge.html">充值得优惠</a>
+		                    <a href="http://www.epet.com/game/exchange.html" >兑换现金券</a>
+		                    <a href="https://my.epet.com/friend.html">推荐得惊喜</a>
+                		</div>
+					</span>
+					
+					<!--收藏我下拉-->
+					<span class="hoverShow">
+						<a href="#">收藏我</a><em class="zhuan icon-caret-down"></em>
+						<div class="collectMe" style="display: none;">
+		                    <a href="#" rel="nofollow"><span>加入收藏夹</span></a>
+		                    <a href="#"><span>保存到桌面</span></a>
+               			</div>
+					</span>
+					
+					<span><em class="icon-mobile-phone"></em><a href="http://www.epet.com/app.html">手机版</a></span>
+					<span><a href="#">帮助</a></span>
+					<span class="ding"><a href="#" class="jianyi">投诉建议</a></span>
+				</div>
+			</div>	
+		</div>
+		<!--广告-->
+		<div class="topadv">
+			<img src="images/topadv.jpg">
+		</div>
+		<!--搜索栏-->
+		<div class="searchBox">
+		<div class="search">
+			<div class="searchL left">
+				<img src="images/cat-logo.png" alt="logo" />
+			</div>
+			<form class="searchM left">
+				<div class="searchbox">
+					<input class="intex" type="text" placeholder="心然" />
+					<input class="insub" type="submit" value="搜索" />
+				</div>
+				<div class="keywords">
+	                <label>热门搜索：</label>
+		                <a class="cred" href="http://cat.epet.com/zt/model/zt.html?ztid=450" target="_blank">省钱大总攻</a><span>|</span>
+		                <a href="http://www.epet.com/zt/model/zt.html?ztid=506" target="_blank">巅峰</a><span>|</span>   
+		                <a href="http://cat.epet.com/zt/model/zt.html?ztid=458" target="_blank">冠能猫粮 </a> <span>|</span> 
+		                <a href="http://www.epet.com/zt/model/zt.html?ztid=403" target="_blank">比瑞吉</a><span>|</span>
+		                <a href="http://cat.epet.com/zt/model/zt.html?ztid=518" target="_blank">满149减25</a>                   
+				</div>
+			</form>
+			<div class="phone left">
+				<p class="phoneTop"></p>
+				<p class="tex"><a href="#">任性，<i>猫砂</i>全国99包邮啦！</a></p>
+			</div>
+			<div class="shopcar right">
+				<a href="#">购物车(<a href="#" style="color:red" class="car2">0</a>)</a>
+			</div>
+			
+		</div>
+		</div>
+		<!--导航栏-->
+		<div class="navBBox">
+		<div class="navBox"> 
+			<div class="navL left">
+				<p  class="cat ps left"><a href="#">猫猫<i></i></a></p>
+				<p  class="list ps left"><a href="#">商品分类<i></i></a></p>
+				<div class="show1 show" style="display:none">
+					<div class="show1-Top" style="border:1px solid #ccc;border-bottom:0;">
+						<p>
+							<a href="http://www.epet.com/"><span></span></a>
+							16945种精选宝贝
+						</p>
+						<p class="btn"><a href="http://www.epet.com">点击切换</a></p>
+					</div>
+					<div class="show1-bottom" style="border:1px solid #ccc;border-top:0;">
+						<p class="btop">
+							<a href="http://www.epet.com/">
+								<span></span>
+								<img class="cat-word" src="images/cat-word.jpg" alt=''/>						</a>
+							7604种精选宝贝
+						</p>
+						<p class="btn"><a href="http://www.epet.com">你正在猫猫站溜达</a></p>
+					</div>
+				</div>
+				<div class="big_shell">
+					<div class="show2 show" style="display:none;">
+	                	<ul style="border:1px solid #ccc;"> 
+	                        <li id=""><a href="#"> <b></b>
+	                        	<span>主粮<i>415</i>零食<i>514</i></span>
+	                        </a></li>
+	                   		<li id=""><a href="#"><b class="b1"></b>
+	                    		<span>日用<i>1086</i>玩具<i>687</i></span>
+	                   		 </a></li>
+	                        <li id=""><a href="#"><b class="b2"></b>
+	                            <span>保健<i>643</i>医疗<i>582</i></span>
+	                        </a></li>
+	                        <li id=""><a href="#"><b class="b3"></b>
+	                            <span>美容<i>397</i>香波<i>357</i></span>
+	                        </a></li>
+	                        <li id=""><a href="#"><b class="b4"></b>
+	                            <span>出行<i>423</i>装扮<i>82</i></span>
+	                        </a></li>
+	                        <li id=""><a href="#"><b class="b5"></b>
+	                            <span>书籍<i>57</i>杂志<i>57</i></span>
+	                        </a></li>
+	                        <p class="huodong"><img src="images/active.png">正在进行的活动<a>12</a></p>
+	                    </ul>
+					</div>
+					
+		            <div class="swContainer">
+	                <div class="menu menushow" style="display:none">
+	                    <dl class="menu01">
+	                        <dt><span><img src="images/menuIcon01.jpg"></span><a href="#">猫粮主粮</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">进口猫粮</a></h4><a href="#">全猫粮</a><a href="#">幼猫粮</a><a href="#">成年猫粮</a><a href="#">老猫粮</a><a href="#">泰国皇室</a><a href="#" style="color:#f42130">百娜绮</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">国产猫粮</a><a href="#">全猫粮</a><a href="#">幼猫粮</a><a href="#">成年猫粮</a><a href="#">老猫粮</a><a href="#">离乳/怀孕/哺乳</a><a href="#" style="color:#f42130">喜跃换新颜</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">拆零试吃</a><a href="#">法国皇室</a><a href="#">优基</a><a href="#">冠能</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">处方猫粮</a><a href="#">利尿护理</a><a href="#">体重控制</a><a href="#">心肾保养</a><a href="#">肠胃处方粮</a><a href="#">特护营养</a></dd>
+	                        <dt><h4><span><img src="images/menuIcon02.jpg"></span><a href="#">猫粮零食</a></h4></dt>
+	                        <dd><a href="#" class="menu_firstdd">罐头湿粮</a><a href="#">罐头</a><a href="#">餐盒</a><a href="#">妙鲜包</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">美食零食</a><a href="#">补丁</a><a href="#">薄荷饼干</a><a href="#">美味肉条</a><a href="#">进口冻干</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">专用零食</a><a href="#">美毛化毛</a><a href="#">营养小食</a><a href="#">洁齿零食</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">猫草薄荷</a><a href="#">猫草</a><a href="#">猫薄荷</a><a href="#">薄荷喷剂</a><a href="#">有机猫草</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">N3钜惠，喵主福利，猫粮买一赠一  </a></dd>
+	                        <dd><a href="#">喵の进口粮清单</a></dd>
+	                        <dd><a href="#">美国进口，惊喜8折</a></dd>
+	                        <dd><a href="#">比瑞吉折后送零食</a></dd>
+	                        <dd><a href="#">大牌产品超低折扣！</a></dd>
+	                        <dd><a href="#">玫斯超值礼包（买1赠13件）</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list02.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">鱼肉专场 满即送17元猫抓板</a></dd>
+	                        <dd><a href="#">珍致猫罐买30立减5元  </a></dd>
+	                        <dd><a href="#">买罐头送“寿司”【买一送一】</a></dd>
+	                        <dd><a href="#">美味零食0元享</a></dd>
+	                        <dd><a href="#">购猫罐 9.9元换购小宠益生菌</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list03.jpg"></a></dd>
+	                    </dl>
+	                </div>
+	              	  <div class="menu menushow" style="display:none">
+	                    <dl class="menu01">
+	                        <dt><span><img src="images/menuIcon03.jpg"></span><a href="#">猫粮日用</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫砂专区</a></h4><a href="#">纸砂</a><a href="#">木砂</a><a href="#">膨润土</a><a href="#">水晶砂</a><a href="#">植物砂</a><a href="#" style="color:#f42130">霸气送猫厕</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫厕专区</a></h4><a href="#">单层厕所</a><a href="#">双层厕所</a><a href="#">半封闭厕所</a><a href="#">全封闭厕所</a><a href="#" style="color:#f42130">满99减20</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪清洁</a></h4><a href="#">尿片</a><a href="#">湿巾</a><a href="#">禁喷区</a><a href="#">粘毛器</a><a href="#">清洁剂</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪餐具</a></h4><a href="#">食盆</a><a href="#">奶瓶</a><a href="#">饮水机</a><a href="#">防溢水碗</a><a href="#">自动喂食机</a><a href="#" style="color:#f42130">新生礼包5折起</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪住所</a></h4><a href="#">藤编窝</a><a href="#">猫笼</a><a href="#">吊床</a><a href="#">帐篷</a><a href="#" style="color:#f42130">反季特价</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">爱丽丝</a></h4><a href="#">猫笼</a><a href="#">猫厕</a><a href="#">控沙板</a><a href="#">航空箱</a></dd>
+	                        <dt><h4><span><img src="images/menuIcon04.jpg"></span><a href="#">猫粮玩具</a></h4></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">魔爪玩具</a></h4><a href="#">猫抓柱</a><a href="#">猫爪板</a><a href="#">剑麻猫爪板</a><a href="#">创意猫爪板</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">爬架/家具</a></h4><a href="#">1米以下</a><a href="#">三层以上爬梯</a><a href="#">1.4米以上</a><a href="#">瓦楞纸家具</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">玩具家具</a></h4><a href="#">猫隧道</a><a href="#">天木兰玩具</a><a href="#">电子玩具</a><a href="#">毛类玩具</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">逗猫棒</a></h4><a href="#">兔毛逗猫棒</a><a href="#">含吊绳逗猫棒</a><a href="#">羽毛逗猫棒</a><a href="#">毛绒逗猫棒</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">保鲜+防虫=捣蛋鬼猫碗  </a></dd>
+	                        <dd><a href="#">平价猫砂，送铲子</a></dd>
+	                        <dd><a href="#">窝窝反季清仓中</a></dd>
+	                        <dd><a href="#">”暑假“只想玩？赶紧做清洁去吧！</a></dd>
+	                        <dd><a href="#">傲娇喵大人初来乍到！</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list04.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">互动玩具 好礼低至3.2折</a></dd>
+	                        <dd><a href="#">休闲磨爪 满省欢乐多</a></dd>
+	                        <dd><a href="#">高品质生活，尽在多元化喵爬架</a></dd>
+	                        <dd><a href="#">好身材磨出来 满10元减5元</a></dd>
+	                        <dd><a href="#">休闲益智玩具，买1赠2,还享5折换购</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list05.jpg"></a></dd>
+	                    </dl>
+		        	</div>
+	              	  <div class="menu menushow" style="display:none">
+	                    <dl class="menu01 ">
+	                        <dt><span><img src="images/menuIcon04.jpg"></span><a href="#">猫粮保健</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">增强免疫</a></h4><a href="#">奶粉</a><a href="#">补充营养</a><a href="#">免疫力</a><a href="#">补血护肝</a><a href="#" style="color:#f42130">hanguoBOTH</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">补钙强骨</a></h4><a href="#">钙粉</a><a href="#">钙膏</a><a href="#">液体钙</a><a href="#">RedDog</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">关节呵护</a></h4><a href="#">卫士关节舒</a><a href="#">关节膏</a><a href="#">长效关节丸</a><a href="#">关节灵粉剂</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">微量元素</a></h4><a href="#">微量元素</a><a href="#">维生素</a><a href="#">美国麦德氏</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">美毛化毛</a></h4><a href="#">海藻</a><a href="#">鱼油</a><a href="#">卵磷脂</a><a href="#">化毛</a><a href="#">K9</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">肠胃调理</a></h4><a href="#">调理型</a><a href="#">治疗型</a><a href="#">小宠</a><a href="#">宠儿香</a></dd>
+	                        <dt><h4><span><img src="images/menuIcon05.jpg"></span><a href="#">猫粮医疗</a></h4></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">罐头湿粮</a></h4><a href="#">罐头</a><a href="#">餐盒</a><a href="#">妙鲜包</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">美食零食</a></h4><a href="#">补丁</a><a href="#">薄荷饼干</a><a href="#">美味肉条</a><a href="#">进口冻干</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">专用零食</a></h4><a href="#">美毛化毛</a><a href="#">营养小食</a><a href="#">洁齿零食</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫草薄荷</a></h4><a href="#">猫草</a><a href="#">猫薄荷</a><a href="#">薄荷喷剂</a><a href="#">有机猫草</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">N3钜惠，喵主福利，猫粮买一赠一  </a></dd>
+	                        <dd><a href="#">喵の进口粮清单</a></dd>
+	                        <dd><a href="#">美国进口，惊喜8折</a></dd>
+	                        <dd><a href="#">比瑞吉折后送零食</a></dd>
+	                        <dd><a href="#">大牌产品超低折扣！</a></dd>
+	                        <dd><a href="#">玫斯超值礼包（买1赠13件）</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list06.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">鱼肉专场 满即送17元猫抓板</a></dd>
+	                        <dd><a href="#">珍致猫罐买30立减5元  </a></dd>
+	                        <dd><a href="#">买罐头送“寿司”【买一送一】</a></dd>
+	                        <dd><a href="#">美味零食0元享</a></dd>
+	                        <dd><a href="#">购猫罐 9.9元换购小宠益生菌</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list07.jpg"></a></dd>
+	                    </dl>
+	                </div>
+	                <div class="menu menushow" style="display:none">
+	                    <dl class="menu01">
+	                        <dt><span><img src="images/menuIcon04.jpg"></span><a href="#">猫粮保健</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">增强免疫</a></h4><a href="#">奶粉</a><a href="#">补充营养</a><a href="#">免疫力</a><a href="#">补血护肝</a><a href="#" style="color:#f42130">hanguoBOTH</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">补钙强骨</a></h4><a href="#">钙粉</a><a href="#">钙膏</a><a href="#">液体钙</a><a href="#">RedDog</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">关节呵护</a></h4><a href="#">卫士关节舒</a><a href="#">关节膏</a><a href="#">长效关节丸</a><a href="#">关节灵粉剂</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">微量元素</a></h4><a href="#">微量元素</a><a href="#">维生素</a><a href="#">美国麦德氏</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">美毛化毛</a></h4><a href="#">海藻</a><a href="#">鱼油</a><a href="#">卵磷脂</a><a href="#">化毛</a><a href="#">K9</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">肠胃调理</a></h4><a href="#">调理型</a><a href="#">治疗型</a><a href="#">小宠</a><a href="#">宠儿香</a></dd>
+	                        <dt><h4><span><img src="images/menuIcon05.jpg"></span><a href="#">猫粮医疗</a></h4></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">罐头湿粮</a></h4><a href="#">罐头</a><a href="#">餐盒</a><a href="#">妙鲜包</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">美食零食</a></h4><a href="#">补丁</a><a href="#">薄荷饼干</a><a href="#">美味肉条</a><a href="#">进口冻干</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">专用零食</a></h4><a href="#">美毛化毛</a><a href="#">营养小食</a><a href="#">洁齿零食</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫草薄荷</a></h4><a href="#">猫草</a><a href="#">猫薄荷</a><a href="#">薄荷喷剂</a><a href="#">有机猫草</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">N3钜惠，喵主福利，猫粮买一赠一  </a></dd>
+	                        <dd><a href="#">喵の进口粮清单</a></dd>
+	                        <dd><a href="#">美国进口，惊喜8折</a></dd>
+	                        <dd><a href="#">比瑞吉折后送零食</a></dd>
+	                        <dd><a href="#">大牌产品超低折扣！</a></dd>
+	                        <dd><a href="#">玫斯超值礼包（买1赠13件）</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list06.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">鱼肉专场 满即送17元猫抓板</a></dd>
+	                        <dd><a href="#">珍致猫罐买30立减5元  </a></dd>
+	                        <dd><a href="#">买罐头送“寿司”【买一送一】</a></dd>
+	                        <dd><a href="#">美味零食0元享</a></dd>
+	                        <dd><a href="#">购猫罐 9.9元换购小宠益生菌</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list07.jpg"></a></dd>
+	                    </dl>
+	                </div>
+	                <div class="menu menushow" style="display:none">
+	                    <dl class="menu01">
+	                        <dt><span><img src="images/menuIcon02.jpg"></span><a href="#">猫粮日用</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫砂专区</a></h4><a href="#">纸砂</a><a href="#">木砂</a><a href="#">膨润土</a><a href="#">水晶砂</a><a href="#">植物砂</a><a href="#" style="color:#f42130">霸气送猫厕</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫厕专区</a></h4><a href="#">单层厕所</a><a href="#">双层厕所</a><a href="#">半封闭厕所</a><a href="#">全封闭厕所</a><a href="#" style="color:#f42130">满99减20</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪清洁</a></h4><a href="#">尿片</a><a href="#">湿巾</a><a href="#">禁喷区</a><a href="#">粘毛器</a><a href="#">清洁剂</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪餐具</a></h4><a href="#">食盆</a><a href="#">奶瓶</a><a href="#">饮水机</a><a href="#">防溢水碗</a><a href="#">自动喂食机</a><a href="#" style="color:#f42130">新生礼包5折起</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">猫咪住所</a></h4><a href="#">藤编窝</a><a href="#">猫笼</a><a href="#">吊床</a><a href="#">帐篷</a><a href="#" style="color:#f42130">反季特价</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">爱丽丝</a></h4><a href="#">猫笼</a><a href="#">猫厕</a><a href="#">控沙板</a><a href="#">航空箱</a></dd>
+	                        <dt><h4><span><img src="images/menuIcon04.jpg"></span><a href="#">猫粮玩具</a></h4></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">魔爪玩具</a></h4><a href="#">猫抓柱</a><a href="#">猫爪板</a><a href="#">剑麻猫爪板</a><a href="#">创意猫爪板</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">爬架/家具</a></h4><a href="#">1米以下</a><a href="#">三层以上爬梯</a><a href="#">1.4米以上</a><a href="#">瓦楞纸家具</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">玩具家具</a></h4><a href="#">猫隧道</a><a href="#">天木兰玩具</a><a href="#">电子玩具</a><a href="#">毛类玩具</a></dd>
+	                        <dd><h4><a href="#" class="menu_firstdd">逗猫棒</a></h4><a href="#">兔毛逗猫棒</a><a href="#">含吊绳逗猫棒</a><a href="#">羽毛逗猫棒</a><a href="#">毛绒逗猫棒</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">保鲜+防虫=捣蛋鬼猫碗  </a></dd>
+	                        <dd><a href="#">平价猫砂，送铲子</a></dd>
+	                        <dd><a href="#">窝窝反季清仓中</a></dd>
+	                        <dd><a href="#">”暑假“只想玩？赶紧做清洁去吧！</a></dd>
+	                        <dd><a href="#">傲娇喵大人初来乍到！</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list04.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">互动玩具 好礼低至3.2折</a></dd>
+	                        <dd><a href="#">休闲磨爪 满省欢乐多</a></dd>
+	                        <dd><a href="#">高品质生活，尽在多元化喵爬架</a></dd>
+	                        <dd><a href="#">好身材磨出来 满10元减5元</a></dd>
+	                        <dd><a href="#">休闲益智玩具，买1赠2,还享5折换购</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list05.jpg"></a></dd>
+	                    </dl>
+	                </div>
+	                
+	          	      <div class="menu menushow" style="display:none">
+	                    <dl class="menu01">
+	                        <dt><span></span><a href="#">猫粮主粮</a></dt>
+	                        <dd><h4><a href="#" class="menu_firstdd">进口猫粮</a></h4><a href="#">全猫粮</a><a href="#">幼猫粮</a><a href="#">成年猫粮</a><a href="#">老猫粮</a><a href="#">泰国皇室</a><a href="#" style="color:#f42130">百娜绮</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">国产猫粮</a><a href="#">全猫粮</a><a href="#">幼猫粮</a><a href="#">成年猫粮</a><a href="#">老猫粮</a><a href="#">离乳/怀孕/哺乳</a><a href="#" style="color:#f42130">喜跃换新颜</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">拆零试吃</a><a href="#">法国皇室</a><a href="#">优基</a><a href="#">冠能</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">处方猫粮</a><a href="#">利尿护理</a><a href="#">体重控制</a><a href="#">心肾保养</a><a href="#">肠胃处方粮</a><a href="#">特护营养</a></dd>
+	                        <dt><h4><span></span><a href="#">猫粮零食</a></h4></dt>
+	                        <dd><a href="#" class="menu_firstdd">罐头湿粮</a><a href="#">罐头</a><a href="#">餐盒</a><a href="#">妙鲜包</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">美食零食</a><a href="#">补丁</a><a href="#">薄荷饼干</a><a href="#">美味肉条</a><a href="#">进口冻干</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">专用零食</a><a href="#">美毛化毛</a><a href="#">营养小食</a><a href="#">洁齿零食</a></dd>
+	                        <dd><a href="#" class="menu_firstdd">猫草薄荷</a><a href="#">猫草</a><a href="#">猫薄荷</a><a href="#">薄荷喷剂</a><a href="#">有机猫草</a></dd>
+	                    </dl>
+	                    <dl class="menu02">
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#" style="color:#f42130">N3钜惠，喵主福利，猫粮买一赠一  </a></dd>
+	                        <dd><a href="#">喵の进口粮清单</a></dd>
+	                        <dd><a href="#">美国进口，惊喜8折</a></dd>
+	                        <dd><a href="#">比瑞吉折后送零食</a></dd>
+	                        <dd><a href="#">大牌产品超低折扣！</a></dd>
+	                        <dd><a href="#">玫斯超值礼包（买1赠13件）</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list02.jpg"></a></dd>
+	                        <dt><h4><a href="#">热卖推荐</a></h4></dt>
+	                        <dd><a href="#">鱼肉专场 满即送17元猫抓板</a></dd>
+	                        <dd><a href="#">珍致猫罐买30立减5元  </a></dd>
+	                        <dd><a href="#">买罐头送“寿司”【买一送一】</a></dd>
+	                        <dd><a href="#">美味零食0元享</a></dd>
+	                        <dd><a href="#">购猫罐 9.9元换购小宠益生菌</a></dd>
+	                        <dd><a href="#"><img src="images/menu_list03.jpg"></a></dd>
+	                    </dl>
+	                </div>
+	            </div>
+	            </div>
+				
+				
+			</div>
+            
+			<ul class="menu left">
+                <li><a target="_blank" href="list.html">全球特卖</a></li>
+                <li class="guojia"><img class="new" src="images/new.gif"><a target="_blank" class="mns" href="http://www.epet.com/global/region/">国家馆</a></li>
+                <li><a target="_blank" class="mns" href="http://www.epet.com/catshop/main.html"><i></i>罐头超市</a></li>
+                <li><a class="mns" href="http://www.epet.com/activity/gift_cat.html"><i></i>热卖礼包</a></li>
+                <li><a class="mns" href="http://www.epet.com/cleargoodsmcat.html"><i></i>清仓特价</a></li>
+            </ul>
+            <div class="phoneApp right">
+            	<img alt="app" src="images/phoneApp.gif"/>
+            </div>
+		</div>
+		</div>
+	
+		<!--------自己独有------------------>
+		<div id="box">
+			<div id="tit">
+				<div class="xqname">
+					<h1>
+						<span>[特卖]</span>
+						<em></em>
+					</h1>
+					<p></p>
+				</div>
+			</div>
+			<!--放大镜部分-->
+			<div id="xqBox">
+				<div class="fdj left">
+					<div class="shang"></div>
+					<div class="xiaotu"></div>
+					<div class="xia"></div>
+					<div id="smallImg">
+				        <div id="smallCursor"></div>
+				    </div>
+				    <div id="bigCursor">
+				        <img id="bigImg" src="" alt="" />
+				    </div>
+				    <div class="bian">
+		                <span class="left">商品编号：118966</span>
+		                <div class="right pr20 xq-share">
+		                    <div class="left pointer">
+		                        <a><span class="xqico span1 mr20">分享</span></a>
+		                    </div>
+		                    <a href="#"><span class="xqico span2 mr20">收藏商品</span></a>
+		                </div>
+		            </div>
+				</div>
+				<div class="xqR right">
+					<div class="tt">
+						<b class="fl">￥</b>
+						<big class="fl bold" id="goods-sale-price" data-name="sale_price"></big>
+						<span class="fl bold cfff xqico ml">包邮免税</span>
+						<em class="c999 ft14 ml mt20 fl">市场价 ：¥190.80</em>
+					</div>
+					<div class="other-money mt15 clear">
+						<div class="left c999 ft14 pointer mr20 div1 dib rela">
+								税费： 
+							<del class = "c333" > ￥9.00 </del>
+	                        <b class="xqico dib"></b >
+                        </div>
+                        <div class="left c999 ft14 pointer mr20 div1 dib rela">
+								邮费： 
+							<del class = "c333" > ￥35.00 </del>
+	                        <b class="xqico dib"></b >
+                        </div>
+                    </div>
+					<div class="norms clearfix mt15 ">
+						<span class="fl ft14 db c999">
+							重量：
+						</span>
+						<div class="norms-con fl">
+							<a href="http://www.epet.com/goods/118966.html" title="3.5磅" class="norms-a">
+								3.5磅
+								<span class="goods-select">
+								</span>
+							</a>
+							<a href="http://www.epet.com/goods/125917.html" title="6磅" class="norms-a">
+								6磅
+							</a>
+							<a href="http://www.epet.com/goods/172109.html" title="11磅" class="norms-a">
+								11磅
+							</a>
+						</div>
+					</div>	
+					<!--数量-->
+					<div class="norms h36 clearfix mt15">
+						<span class="fl ft14 db c999 mt5">数量：</span>
+						<div class="norms-con fl">
+							<span class="cgnum fl mr">
+								<span class="chgnum lim-buynum reduceD ft14">-</span>
+								<input type="text" id="cart_buynum" class="text buynum" value="1" size="2">
+								<span class="chgnum add-buynum addD ft14">+</span>
+							</span>
+							<span class="fl mt">袋</span>
+						</div>
+					</div>
+					<div class="norms h53 clearfix mt15">
+						<span class="fl ft14 db c999 mt5">
+							发货：
+						</span>
+						<div class="norms-con fl">
+							<div class="gdtable sent-city ">
+								<div class="clearfix">
+									<div class="fl div-sentcity clearfix rela ft14">
+										<em class="c333 fl">
+											香港1号仓
+										</em>
+									</div>
+									<div class="clear"></div>
+								
+								</div>
+								<div class="ft12 c999 mt5">
+									16点前下单，当天送往海关清关，清关完成后3-7天到达。
+									<a href="http://www.epet.com/faq23.html" target="_blank">
+										运费详情&gt;&gt;
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="had-buy overflow">
+						<ul class="clearfix">
+							<li class="fl ftc">
+								<span class="ren">
+									<i class="dib xqico ico1"></i>
+									<em></em>
+								</span>
+							</li>
+							<li class="fl ftc">
+								<a href="http://www.epet.com/review118966.html" target="_blank">
+									<span>
+										<i class="dib xqico ico2">
+										</i>
+										4.8分 (114条评论）
+									</span>
+								</a>
+							</li>
+							<li class="fl ftc">
+								<span>
+									<i class="dib xqico ico3">
+									</i>
+									最多0个E宠币
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div class="fl addcart-div">
+					    <div class="add-buycart ft20 cfff ftc pointer" data-name="addcart-botton">
+					    	<input id="cart_gid" type="hidden" value="118966">
+							<input id="cart_buymode" type="hidden" value="temai">
+							<input id="cart_pam" type="hidden" value="676">
+							<input id="cart_pam1" type="hidden" value="">
+					    	<a class="db">
+					    		<span class="cfff ft20" id="shopbtn">加入购物车</span>
+					    	</a>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="fix_bg"></div>
+		<div class="fix">
+			<div class="fixwrap">
+	        	<div class="close"></div>
+				<div class="carbg"></div>
+	            <div class="cong">
+	                <h3>恭喜，已成功添加到购物车</h3>
+	                <p>购物车共有 <span class="cf60">1</span> 件商品，合计：<span class="cred ft18 heji"></span>元</p>
+	                <a href="#" class="jixug">继续购物</a><a href="shopcar.html" class="jiesuan">立即结算</a>
+	            </div>
+			</div>
+			<div class="or">
+				<p>购买过该商品的人还买过：</p>
+				<ul>
+					<li><img src="images/c01.jpg"><a href="#">贵族Nature's Gift 金枪鱼+虾肉口味 猫罐头 170g </a><p>￥9.00</p></li>
+					<li><img src="images/c01.jpg"><a href="#">贵族Nature's Gift 金枪鱼+虾肉口味 猫罐头 170g </a><p>￥9.00</p></li>
+					<li><img src="images/day_imglist01.jpg"><a href="#">贵族Nature's Gift 金枪鱼+虾肉口味 猫罐头 170g </a><p>￥9.00</p></li>
+					<li><img src="images/day_imglist01.jpg"><a href="#">贵族Nature's Gift 金枪鱼+虾肉口味 猫罐头 170g </a><p>￥9.00</p></li>
+				</ul>
+			</div>
+		</div>
+	
+		<!-----------下面商品介绍------------->
+        <div class="qita">
+	    	<div class="zuo">
+	        	<dl class="dl01">
+	            	<dt><h2>买过本商品还买了</h2></dt>
+	                
+	            </dl>
+	            <dl class="dl02">
+	            	<dt>本类热卖排行</dt>                
+	            </dl>
+	        </div>
+	        <div class="qi01">
+	        	<div class="qili">
+	                <ul>
+	                    <li><a href="javascript:;">商品详情</a><div class="qi01img"></div></li>
+	                    <li><a href="javascript:;">品种、年龄分类</a><div class="qi02i">品种、年龄分类</div></li>
+	                    <li><a href="javascript:;">商品评价</a><div class="qi02i">商品评价</div></li>
+	                    <li><a href="javascript:;">商品咨询</a><div class="qi02i">商品咨询</div></li>
+	                </ul>
+	            </div>
+	        </div>
+   		 </div>
+        
+        
+        
+        
+        
+        
+       
+		<!---------------------底部公共--------------------->
+		<!--底部上半部分-->
+     	<div id="footer_top">
+         <div class="footertop_wrap">
+                	<div class="footertop_top">
+                    	<a href="#" class="fta"><span></span>正品采购</a>
+                        <a href="#" class="fta2"><span></span>专业仓储</a>
+                        <a href="#" class="fta3"><span></span>金牌服务</a>
+                        <a href="#" class="fta4"><span></span>荣誉口碑</a>
+                        <a href="#" class="fta5"><span></span>媒体采访</a>
+                    </div>
+                    <div class="footertop_bottom">
+                        <img src="images/cat_phone.png">
+                        <dl>
+                           <dt>关于我们</dt>
+                           <dd><a href="#">关于我们</a></dd>
+                           <dd><a href="#">仓储中心</a></dd>
+                           <dd><a href="#">联系我们</a></dd>
+                           <dd><a href="#">人才招聘</a></dd>
+                        </dl> 
+                        <dl>
+                            <dt>购物指南</dt>
+                            <dd><a href="#">退换货政策</a></dd>
+                            <dd><a href="#">常见问题</a></dd>
+                            <dd><a href="#">香港直邮 FAQ</a></dd>
+                            <dd><a href="linkshow.html?do=BSFAQ">保税直发 FAQ</a></dd>
+                        </dl>
+                            <dl>
+                            <dt>配送方式</dt>
+                            <dd><a href="#">E宠快递</a></dd>
+                            <dd><a href="#">外包快递</a></dd>
+                            <dd><a href="#">物流运输</a></dd>
+                            <dd><a href="faq11.html">公司地址</a></dd>
+                        </dl>
+                            <dl id="pl-left">
+                            <dt>支付方式</dt>
+                            <dd><a href="#">货到付款</a></dd>
+                            <dd><a href="#">余额支付</a></dd>
+                            <dd><a href="#">银行转账</a></dd>
+                            <dd><a href="#">在线支付</a></dd>
+                        </dl> 
+                    </div>
+                </div>
+            </div>
+		<!--底部中间-->
+		<div id="footer">
+            	<div class="footerleft">
+                	<p>安全认证</p>
+                    <a href="#"><img src="images/safe360.png"></a>
+                    <a href="#"><img src="images/safesite.png"></a>
+                    <a href="#"><img src="images/bottom_small_img.png"></a>
+                    <a href="#"><img src="images/safeqq.png"></a>
+                    <a href="#"><img src="images/safetrace.png"></a>
+                    <a href="#"><img src="images/safegs.png"></a>
+                </div>
+                <div class="footercenter">
+                	<div class="center_lt">
+                        <p>扫描或点击下载手机端</p>
+                        <a href="#"><img src="images/dw2.png"></a>
+                    </div>
+                    <div class="center_lb">
+                        <p>扫描关注E宠商城微信</p>
+                        <a href="#"><img src="images/dw2.png"></a>
+                    </div>
+                </div>
+                <div class="footerright">
+                	<p>荣誉奖章</p>
+                    <a href="#"><img src="images/b1.png"></a>
+                    <a href="#"><img src="images/b2.png"></a>
+                    <a href="#"><img src="images/b3.png"></a>
+                    <a href="#"><img src="images/b4.png"></a>
+                    <a href="#"><img src="images/b5.png"></a>
+                    <a href="#"><img src="images/b6.png"></a>
+                </div>
+            </div>
+		<!--底部下半部分专利-->
+		<div class="footer_bottom">
+			<p>渝ICP备13005525号-2　渝ICP备10002905<a href="#">增值电信业务经营许可证：渝B2-20140042</a>Copyright © 2007-2016 epet.com 　重庆易宠科技有限公司</p>
+        </div>
+		
+	
+	<!---------------侧边栏------------>
+		<div id="sidebar">
+        	<div class="bart"></div>
+            <div class="barcon">
+            	<ul class="barcon_top">
+                	<li class="bar_login">
+                    	<div class="bar_lg" style="right: 50px; opacity: 0;">你还没登录，请<a href="login.html">登录</a></div>
+                        <a href="#" class="hov"></a>
+                    </li>
+                    <li class="bar_car">
+                    	<div class="bar_cr" style="right: 50px; opacity: 0;">您的购物车中暂无商品，赶快选择心爱的商品吧！</div>
+                        <div id="cartbox" class="cartview" style=" position: absolute;top:0px; display: none;">
+						<div class="tancbox">
+							<div class="cartVlist-div">
+								<ul class="cartVlist">
+									
+								</ul>
+							</div>
+							<p>
+								共<span class="cred" id="cartgd_num"><!--1--></span>
+								件商品 合计：<span class="cred celanheji"></span>
+							</p>
+							<div class="cartbt_btn">
+								<a class="btn"><span>取出</span>	</a>
+								<a class="btn"><span>寄存</span></a>
+								<a class="btn"><span>清空</span></a>
+								<a href="shopcar.html" class="smbtn"><span>去结算</span></a>
+							</div>
+		    			</div>
+		
+			</div>
+                        <a href="#"></a>
+                    </li>                   
+                    <li class="bar_rt">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">我的订单<i>◆</i></div>
+                        <a href="#"></a>
+                    </li>
+                    <li class="bar_ms">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">我的消息<i>◆</i></div>
+                       <a href="#"></a>
+                    </li>
+                    <li class="bar_ask">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">我要咨询<i>◆</i></div>
+                        <a href="#"></a>
+                    </li>
+                    <li class="bar_phone">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">手机端下载</div>
+                        <a href="#"></a>
+                    </li>
+                    <li class="bar_fq">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">我要反馈<i>◆</i></div>
+                       <a href="#"></a>
+                    </li>
+            		<li class="bar_ew">
+                    	<div class="bar_er" style="right: 50px; opacity: 0;"><img src="images/cat_ew.jpg"></div>
+                        <a href="#"></a>
+                    </li>
+                    <li class="bar_backt">
+                    	<div class="bar_rtd" style="right: 50px; opacity: 0;">返回顶部<i>◆</i></div>
+                        <a href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="barb">
+            </div>
+            
+             
+	</body>
+</html>

@@ -1,0 +1,22 @@
+{
+	"hotsale":["images/list/a1.jpg","images/list/a2.jpg","images/list/a3.jpg","images/list/a4.jpg"],
+	"today":[
+	["images/list/c01.jpg","United States","美国品牌","香港1号仓","images/list/b01.jpg","距特卖结束","2016/10/03 09:59:59","牛油果AVODerm 吐毛球配方成猫粮 3.5磅/1.59kg","WDJ推荐 美毛健肤 减少毛球堆积 增强免疫","￥","99.00","剩余16件","加入购物车","395","人已购买","1"],
+	["images/list/c03.jpg","United States","英国品牌","全国大仓","images/list/b02.jpg","距特卖结束","2016/10/04 09:59:59","【全国包邮】美国Ever Clean蓝钻 双重活性炭粗...","WDJ推荐 美毛健肤 减少毛球堆积 增强免疫","￥","119.00","剩余6件","加入购物车","545","人已购买","1"],
+	["images/list/c01.jpg","United States","美国品牌","香港1号仓","images/list/b06.jpg","距特卖结束","2016/10/04 09:59:59","美国 红狗RedDog 犬用营养膏 120g","美国保健品 18种氨基酸 21种维他命 提高免疫力","￥","56.00","剩余16件","加入购物车","155","人已购买","1"],
+	["images/list/c03.jpg","United States","英国品牌","全国大仓","images/list/b04.jpg","距特卖结束","2016/10/03 09:59:59","Orijen渴望 全猫粮 全肉配方1.2kg","WDJ推荐 美毛健肤 减少毛球堆积 增强免疫","￥","99.00","剩余16件","加入购物车","695","人已购买","1"],
+	["images/list/c05.jpg","United States","美国品牌","香港1号仓","images/list/b03.jpg","距特卖结束","2016/10/03 09:59:59","爱丽思IRIS 豪华宠物房子 大号 茶色","WDJ推荐 美毛健肤 减少毛球堆积 增强免疫","￥","99.00","剩余16件","加入购物车","255","人已购买","1"],
+	["images/list/c05.jpg","United States","美国品牌","香港1号仓","images/list/b06.jpg","距特卖结束","2016/10/03 09:59:59","巅峰ZiwiPeak 风干牛肉配方全犬粮 1kg","WDJ推荐 美毛健肤 减少毛球堆积 增强免疫","￥","199.00","剩余10件","加入购物车","280","人已购买","1"]
+	],
+	"jingxuan":[
+	["images/list/jingxuan1.jpg","images/list/g1.jpg","karlie 木纹犬用不锈钢食碗 深棕色 700","￥99.00"],
+	["images/list/jingxuan2.jpg","images/list/g2.jpg","百利本能Instinct 原野生肉无谷物猫零","￥39.00"],
+	["images/list/jingxuan3.jpg","images/list/g3.jpg","天然宝NaturVet 成犬长效营养丸 180粒","￥199.00"],
+	["images/list/jingxuan4.jpg","images/list/g4.jpg","法国维克 爱乐滴 犬用皮肤修复剂 6支/盒 4ml/10kg以上 整盒","￥189.00"],
+	["images/list/jingxuan5.jpg","images/list/g5.jpg","Rosewood 宠物美容指甲剪 大号 长","￥59.00"],
+	["images/list/jingxuan6.jpg","images/list/g6.jpg","【全国包邮】美国Ever Clean蓝钻 超凝结细颗粒猫砂 25磅(11.3kg)","￥128.00"],
+	["images/list/jingxuan7.jpg","images/list/g7.jpg","美国Pioneer Pet 种草饮水机 1.8L","￥118.00"],
+	["images/list/jingxuan8.jpg","images/list/g8.jpg","天然宝NaturVet 猫用猫草吐毛膏 85g","￥99.00"]
+	]
+
+}

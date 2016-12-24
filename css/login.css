@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,ul,ol,li,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input {  margin: 0;padding: 0;}
+fieldset,img {  border: none;}
+h1,h2,h3,h4,h5,h6 {  font-weight: normal;}
+img {  display:inline-block;}
+ul,ol,li {  list-style: none;}
+body {  font: 12px "微软雅黑";}
+a {  font: 12px "微软雅黑";  text-decoration: none;color: #444;}
+em,b,strong,i {  font-style: normal;  font-weight: normal;}
+.left {  float: left;}
+.right {  float: right;}
+.clearboth {  clear: both;}
+.boxsha {  box-shadow: 3px 3px 4px #777;}
+body {  background: #fff; }
+
+/*头部*/
+.headBox { width: 100%; height: 119px; border-bottom: 1px solid #ccc;}
+.head { width: 1100px; height: 89px; padding: 30px 0; margin: 0 auto;}
+.head .headR { margin: 13px 5px 0 0;}
+.head .headR a{padding:0 16px;border-left:1px solid #999;line-height:40px;}
+
+/*中间内容*/
+.loginBox{width:100%;height:630px;overflow:hidden;clear:both;background:url(../images/login/logbg3.jpg) no-repeat 0 0;}
+.logined{width:1100px;margin:0 auto;overflow:hidden;}
+.login{width:413px;height:475px;margin:70px 0 85px;float:right;background:#fff;}
+.login h2{color:#666;font-size:16px;height:46px;line-height:46px;overflow:hidden;text-align:center;	padding:10px 20px;border-bottom:solid 1px #ddd;}
+.input-box{	width:350px;padding-bottom:15px;margin:0 auto;overflow:hidden;}
+.input-box input{float:left;width:348px;height:40px;font-size:14px;	border:solid 1px #ddd;text-indent:10px;outline:none;line-height:40px;}
+.input-box button{width:350px;height:48px;background:#3f89ec;border:none;border-radius:2px;outline:none;cursor:pointer;font-size:16px;color:#FFF;}
+#error-box{height:40px;width:350px;margin:0 auto;line-height:40px;color:#fc4343;}
+.login p{padding:0 30px;font-size:16px;color:#666;}
+.login p .tiao{float:right;font-size:14px;}
+.login .hezuo a{height:23px;width:19px;font-size:14px;color:#666;vertical-align: middle;background:url(../images/login/ico.png) no-repeat 0 -86px;	margin-right:10px;	display:inline-block;}
+.reg-p{	margin-bottom:12px;}
+.login p .link2{background-position:0 -115px;}
+.login p .link3{background-position:0 -144px;}
+.login p .link4{background-position:0 -170px;}
+
+
+
+/*底部下半部分专利*/
+.footer{width:1120px;margin:0px auto;margin-top:40px;overflow:hidden;clear:both;}
+.foot{text-align:center;font-size:12px;line-height:24px;}
